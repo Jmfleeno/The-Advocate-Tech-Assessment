@@ -1,22 +1,28 @@
 // Import Dependencies
 import '../styles/App.css';
 import React from 'react';
+import { Typography, Link } from '@mui/material';
 
 // Create Functional Component
 const Author = ({author, article, articleUrl}) => {
-  
-  console.log(author)
   // Return JSX
   return (
     <div>
-      <li>{author}</li>
-      <a
+       <Typography
+          variant='h6'
+          color='primary'
+          align='center'>
+          {author}
+        </Typography>
+      <Link
           className="App-link"
           href={articleUrl}
           target="_blank"
           rel="noopener noreferrer">
-          <div>{article}</div>
-      </a>
+          <Typography>
+            {article}
+          </Typography>
+      </Link>
     </div>
   );
 }

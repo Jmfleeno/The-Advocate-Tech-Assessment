@@ -4,12 +4,12 @@ import React from 'react';
 import Author from './Author.jsx'
 
 // Create Functional Component
-const AuthorList = ({top10Articles}) => {
+const AuthorList = ({topArticles}) => {
   // Return JSX
   return (
     <div>
-      {/* Loop over the first 5 elements articles */}
-      {top10Articles.slice(0, 5).map((article) => {
+      {/* Loop Over the First 5 Articles/Authors */}
+      {topArticles.slice(0, 5).map((article) => {
         return (
             <Author
               author={article.author}
