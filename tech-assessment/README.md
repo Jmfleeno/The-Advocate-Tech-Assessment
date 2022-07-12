@@ -29,8 +29,9 @@ The Tech Assessment brings you to the main application. The Instructions button 
 Dev Setup:
 ## Installation/Start-up
 1. First fork the repo and clone it to your local machine.
-2. Run 'npm install' to install all dependencies
-3. Run 'npm run build' to build application
-4. Run 'npm run start' to start the application
-5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. CD into 'tech-assessment'
+3. Run 'npm install' to install all dependencies
+4. Run 'npm run build' to build application
+5. Run 'npm run start' to start the application
+6. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 

@@ -13,7 +13,6 @@ const Footer = () => {
         align='center'>
         Thanks for stopping by!<br/> Check out the code for this project below.
       </Typography><br/>
-
       <Link
           className="App-footer-link"
           href="https://github.com/Jmfleeno/The-Advocate-Tech-Assessment"
@@ -21,6 +20,7 @@ const Footer = () => {
           rel="noopener noreferrer">
           GitHub Repository Link
         </Link>
+        <br/><br/>
     </div>
   );
 }

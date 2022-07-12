@@ -6,28 +6,30 @@ import Resume from './Resume.jsx';
 import Footer from './Footer.jsx';
 import TechAssessment from './TechAssessment.jsx'
 import ProjectDescription from './ProjectDescription';
+import { Box } from '@mui/system';
 
 const App = () => {
   // Returned JSX
   return (
     <div className="App">
       <ResponsiveAppBar/>
-      <br/>
-      <Routes>
-        <Route
-          path='/'
-          element={<TechAssessment/>}/>
-        <Route
-          path='/tech-assessment'
-          element={<TechAssessment/>}/>
-        <Route
-          path='/resume'
-          element={<Resume/>}/>
-        <Route
-          path='/instructions'
-          element={<ProjectDescription/>}/>
-      </Routes> 
-      <br/>
+      <div
+        className='App-box'>
+        <Routes>
+          <Route
+            path='/'
+            element={<TechAssessment/>}/>
+          <Route
+            path='/tech-assessment'
+            element={<TechAssessment/>}/>
+          <Route
+            path='/resume'
+            element={<Resume/>}/>
+          <Route
+            path='/instructions'
+            element={<ProjectDescription/>}/>
+        </Routes>
+      </div>
       <Footer/>
     </div>
   );

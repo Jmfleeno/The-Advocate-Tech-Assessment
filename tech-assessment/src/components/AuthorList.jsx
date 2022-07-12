@@ -16,7 +16,8 @@ const AuthorList = ({topArticles}) => {
               author={article.author}
               article={article.title}
               articleUrl={article.url}
-              key={article.author+article.title+article.pub_date}
+              imageUrl={article.thumb_url_medium}
+              key={article.pub_date+article.title}
             /><br/>
           </div>
         );

@@ -23,9 +23,9 @@ const TechAssessment = () => {
   return (
     <div className="App">
         <Typography
-          variant='h2'
+          variant='h3'
           align='center'>
-          Current Top 5 Facbook Authors
+          Top 5 Authors from Facebook
         </Typography>
         <Typography
           variant='h4'
@@ -37,10 +37,10 @@ const TechAssessment = () => {
           { 
             isLoading ? 
               <Typography
-                variant='h2'
+                variant='h6'
                 color='primary'
                 align='center'>
-                Welcome to Tech Assessment
+                Loadingg
               </Typography> : 
               <AuthorList topArticles = {topArticles}/>
           }
