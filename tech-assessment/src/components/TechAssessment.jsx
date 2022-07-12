@@ -24,13 +24,11 @@ const TechAssessment = () => {
     <div className="App">
         <Typography
           variant='h2'
-          color='primary'
           align='center'>
           Current Top 5 Facbook Authors
         </Typography>
         <Typography
           variant='h4'
-          color='primary'
           align='center'>
           Along with Their Most Viewed Article
         </Typography>

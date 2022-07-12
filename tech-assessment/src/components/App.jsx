@@ -6,7 +6,6 @@ import Resume from './Resume.jsx';
 import Footer from './Footer.jsx';
 import TechAssessment from './TechAssessment.jsx'
 import ProjectDescription from './ProjectDescription';
-import '../styles/App.css';
 
 const App = () => {
   // Returned JSX

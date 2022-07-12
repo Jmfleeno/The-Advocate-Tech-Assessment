@@ -10,7 +10,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import {Switch} from '@mui/material'
 import logo from '../nolaLogo.webp';
 
 // Define Menu Pages
@@ -142,7 +141,6 @@ const ResponsiveAppBar = () => {
               </Button>
             ))}
           </Box>
-          <Switch/>
         </Toolbar>
       </Container>
     </AppBar>

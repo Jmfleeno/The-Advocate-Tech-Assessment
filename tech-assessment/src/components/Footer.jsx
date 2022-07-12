@@ -8,9 +8,11 @@ const Footer = () => {
   // Return JSX
   return (
     <div>
-      <Typography>
+      <Typography
+        variant='text'
+        align='center'>
         Thanks for stopping by!<br/> Check out the code for this project below.
-      </Typography>
+      </Typography><br/>
 
       <Link
           className="App-footer-link"
