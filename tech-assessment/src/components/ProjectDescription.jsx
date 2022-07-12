@@ -36,6 +36,7 @@ const ProjectDescription = () => {
         variant='h6'
         align='center'>
         First fork the repo and clone it to your local machine.
+        CD into 'tech-assessment' folder
         Run 'npm install' to install all dependencies
         Run 'npm run build' to build application
         Run 'npm run start' to start the application
