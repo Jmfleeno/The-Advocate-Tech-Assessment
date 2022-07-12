@@ -29,11 +29,12 @@
 }
 
 .App-box {
-  margin: 40px;
+  margin: 8vh;
 }
 
 .Article-pic {
   margin: 5px;
+  height:60px;
 }
 
 
