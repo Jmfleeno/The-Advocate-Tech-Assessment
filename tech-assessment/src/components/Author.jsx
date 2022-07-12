@@ -1,5 +1,4 @@
 // Import Dependencies
-import '../styles/App.css';
 import React from 'react';
 import { Typography, Link } from '@mui/material';
 
@@ -10,7 +9,6 @@ const Author = ({author, article, articleUrl}) => {
     <div>
        <Typography
           variant='h6'
-          color='primary'
           align='center'>
           {author}
         </Typography>
@@ -19,7 +17,10 @@ const Author = ({author, article, articleUrl}) => {
           href={articleUrl}
           target="_blank"
           rel="noopener noreferrer">
-          <Typography>
+          <Typography
+            variant='h7'
+            align='center'
+            color='primary'>
             {article}
           </Typography>
       </Link>

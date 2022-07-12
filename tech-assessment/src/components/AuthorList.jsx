@@ -11,12 +11,14 @@ const AuthorList = ({topArticles}) => {
       {/* Loop Over the First 5 Articles/Authors */}
       {topArticles.slice(0, 5).map((article) => {
         return (
+          <div>
             <Author
               author={article.author}
               article={article.title}
               articleUrl={article.url}
               key={article.author+article.title+article.pub_date}
-            />
+            /><br/>
+          </div>
         );
       })}
     </div>

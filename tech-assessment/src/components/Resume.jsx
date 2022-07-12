@@ -10,13 +10,18 @@ const Resume = () => {
   return (
     <div>
       <img src={resume} className="Resume-pic" alt="Resume" />
-      <Link
-        className="Resume-link"
-        href="https://drive.google.com/file/d/1fjm_U74prsK9PY9tqzcgadNvQIkRhEEE/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer">
-        Downloadable PDF Here!
-      </Link>
+      <Typography
+        variant='h4'
+        color='primary'
+        align='center'>
+        <Link
+          className="Resume-link"
+          href="https://drive.google.com/file/d/1fjm_U74prsK9PY9tqzcgadNvQIkRhEEE/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer">
+          Downloadable PDF Here!
+        </Link>
+      </Typography>
     </div>
   );
 }
